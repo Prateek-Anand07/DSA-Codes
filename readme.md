@@ -1,3 +1,21 @@
-# These are codes which I have written when I am learning these topics
-<br>
-Started from input output and still progresing in DSA
+# Data Structures and Algorithms (DSA) in C++ Journey
+
+## Introduction
+This repository contains my personal collection of code related to various Data Structures and Algorithms (DSA). Each folder or file represents a different topic, with code that I wrote while learning and solving problems. The goal is to build a strong foundation in DSA, improve problem-solving skills, and prepare for technical interviews.
+
+## Topics Covered
+- Arrays
+- Linked Lists
+- Stacks and Queues
+- Sorting and Searching
+- Dynamic Programming
+- Backtracking
+- Hashing
+- Others...
+
+### Status
+I will keep updating this repository as I learn and implement new topics.
+
+## Contributions
+This is a personal learning repository, but if you find any issues or have suggestions, feel free to open an issue or submit a pull request.
+
