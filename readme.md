@@ -5,12 +5,18 @@ This repository contains my personal collection of code related to various Data 
 
 ## Topics Covered
 - Arrays
-- Linked Lists
-- Stacks and Queues
 - Sorting and Searching
-- Dynamic Programming
+- Strings
+- STL
+- Linked Lists
+- Recursion
+- Bit Manipulation
+- Stacks and Queues
+- Heaps
 - Backtracking
 - Hashing
+- Greedy
+- Binary Tree
 - Others...
 
 ### Status
