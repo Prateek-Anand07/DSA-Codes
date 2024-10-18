@@ -2,7 +2,7 @@
 using namespace std;
 int partition(int arr[], int l, int r) {
     int pivot = arr[r];
-    int i = l-1;
+    int i = l-1; // it will point to the last element less than pivot element
     for(int j=l; j<r; j++) {
         if(arr[j]<pivot) {
             i++;

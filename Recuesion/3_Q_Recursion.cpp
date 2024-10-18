@@ -23,11 +23,12 @@ void replacePi(string s) {
     }
 }
 // Tower of Hanoi
+// Time Complexity: O(2^n) & Space Complexity: O(n)
 void toh(int n, char src, char dest, char helper) {
     if(n==0) // Base case
         return;
     toh(n-1, src, helper, dest);
-    cout<<"Move from "<<src<<" to "<<dest<<endl;
+    cout<<"Move disk "<<n<<" from "<<src<<" to "<<dest<<endl;
     toh(n-1, helper, dest, src);
 }
 // To remove duplicates
@@ -92,11 +93,11 @@ int main() {
     // reverse(str);
     // string str = "pippppiiiipiiii";
     // replacePi(str);
-    // toh(3, 'A', 'C', 'B');
+    toh(3, 'A', 'C', 'B');
     // cout<<removeDup("aaaaddddeeeeffff");
     // cout<<moveAll("xxtysxly");
     // substrings("ABC", "");
     // substringsASCII("ABC", "");
-    keypad("23", "");
+    // keypad("23", "");
     return 0;
 }
