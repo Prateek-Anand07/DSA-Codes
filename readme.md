@@ -17,6 +17,7 @@ This repository contains my personal collection of code related to various Data 
 - Hashing
 - Greedy
 - Binary Tree
+- Binary Search Tree
 - Others...
 
 ### Status
