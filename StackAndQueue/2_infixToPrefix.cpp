@@ -60,13 +60,14 @@ string infixToPrefix(string s) {
                     result += st.top();
                     st.pop();
                 }
+            }
+            else {
                 while(!st.empty() && priority(c)<priority(st.top())) {
                     result += st.top();
                     st.pop();
                 }
             }
-            else 
-                st.push(c);
+            st.push(c);
         }
     }
     while(!st.empty()) { // after iteration put all operators in string top by top

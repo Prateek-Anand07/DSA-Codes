@@ -18,6 +18,7 @@ This repository contains my personal collection of code related to various Data 
 - Greedy
 - Binary Tree
 - Binary Search Tree
+- Graph
 - Others...
 
 ### Status
