@@ -8,7 +8,7 @@ int main() {
     // sort(str.begin(), str.end(), greater<char>());
 
     // To find maximum frequency of character in string 
-    string str = "fsdblabasfdbfhiabajoiasdbfdjk";
+    string str = "fsasda";
     // int freq[26];
     // for(int i=0; i<26; i++)
     //     freq[i]=0;
@@ -24,6 +24,8 @@ int main() {
     // }
     // cout<<fMax<<" "<<ans<<endl;
     string sb = str.substr(1);
-    cout << sb;
+    cout << sb<<endl;
+    sb.replace(1, 2, "123");
+    cout << sb<<endl;
     return 0;
 }

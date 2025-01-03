@@ -30,8 +30,8 @@ int main() {
     auto it = st.lower_bound(2);
     auto it = st.upper_bound(3);
 
-    // lower_bound function: that STL which points to the first occurence of an element if it occur
-    //  otherwise it points to the iterator pointing element next greater to that
+    // lower_bound function: that STL which points to the first occurence of an element if it occur otherwise it points to the iterator pointing element next greater to that element
+    
     int a[] = {1, 4, 5, 6, 9, 9};
     int n = 6;
     int ind = lower_bound(a, a+n, 4) - a; // 2-1
