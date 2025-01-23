@@ -20,6 +20,7 @@ This repository contains my personal collection of code related to various Data 
 - Binary Search Tree
 - Graph
 - Dynamic Programming
+- Tries
 - Others...
 
 ### Status
