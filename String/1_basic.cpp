@@ -27,5 +27,11 @@ int main() {
     cout << sb<<endl;
     sb.replace(1, 2, "123");
     cout << sb<<endl;
+    string s = "";
+    s += 'a';
+    s += 'b';
+    s.pop_back();
+    cout<<s.back(); // last character in string
+    cout<<"Check string: "<<s;
     return 0;
 }

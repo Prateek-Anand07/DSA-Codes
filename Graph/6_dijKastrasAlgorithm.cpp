@@ -1,4 +1,5 @@
 // Dijkastra's algoritm
+// Dijkstra's Algorithm is a popular method used in graph-based data structures and algorithms (DSA) to find the shortest path between nodes in a weighted graph.
 // it will not work if graph has edge having negative weight as in that case it will go into infinite loop
 #include <bits/stdc++.h>
 using namespace std;
@@ -33,8 +34,8 @@ vector<int> dijkstraUsingSet(vector<vector<pair<int, int>>> &adj, int src) {
     dist[src] = 0;
     while(!st.empty()) {
         auto it = *(st.begin());
-        int node = it.second;
         int distance = it.first;
+        int node = it.second;
         st.erase(it);
         for(auto it: adj[node]) {
             int adjNode = it.first;
